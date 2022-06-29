@@ -33,7 +33,7 @@
         generateBtn.onclick = function () {
             if(qrInput.value.length > 0){
                container.classList.add("active");
-               qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" 
+               qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+qrInput.value; 
             }
         }
     </script>
